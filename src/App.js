@@ -53,7 +53,7 @@ function App() {
             />
           </div>
           <div className="one-half column">
-            <h2>{titulo}</h2>
+            <h2>{titulo}</h2>           
             {citas.map(cita => (
               <Cita
                 key={cita.id}
@@ -61,13 +61,11 @@ function App() {
                 eliminarCita={eliminarCita}
               />
             ))}
-            
           </div>
-          
         </div>
-        <h1 className="one-half">
+        <h2 className="one-half">
               <Footer/>
-        </h1>
+        </h2>
       </div>
       
     </Fragment>
