@@ -1,7 +1,7 @@
 import React,{Fragment, useState, useEffect} from 'react';
-import Formulario from './componets/Formulario';
-import Cita from './componets/Cita';
-import Footer from './componets/Footer';
+import Formulario from './components/Formulario';
+import Cita from './components/Cita';
+import Footer from './components/Footer';
 import PropTypes from 'prop-types';
 
 function App() {
